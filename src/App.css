@@ -1,0 +1,21 @@
+body {
+  /* background: linear-gradient(135deg, rgba(120,0,23,1) 0%, rgba(0,52,166,1) 100%); */
+  background: linear-gradient(135deg, rgb(128, 128, 128) 0%, rgb(2, 23, 68) 100%);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  position: relative;
+  width: 80vw;
+  min-Width: 600px;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+  overflow: visible;
+}

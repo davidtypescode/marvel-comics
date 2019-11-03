@@ -1,0 +1,35 @@
+.SearchResults {
+    position: absolute;
+    top: 126px;
+    bottom: 20px;
+    overflow: auto;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    -webkit-animation: REVEAL-ENTER 0.5s initial;
+    -moz-animation: REVEAL-ENTER 0.5s initial;
+    -o-animation: REVEAL-ENTER 0.5s initial;
+    animation: REVEAL-ENTER 0.5s initial;
+}
+
+@-webkit-keyframes REVEAL-ENTER {
+    0% { top: 50%; bottom: 50%; }
+    100% { top: 126px; bottom: 20px; }
+}
+
+@-moz-keyframes REVEAL-ENTER {
+    0% { top: 50%; bottom: 50%; }
+    100% { top: 126px; bottom: 20px; }
+}
+
+@-o-keyframes REVEAL-ENTER {
+    0% { top: 50%; bottom: 50%; }
+    100% { top: 126px; bottom: 20px; }
+}
+
+@keyframes REVEAL-ENTER {
+    0% { top: 50%; bottom: 50%; }
+    100% { top: 126px; bottom: 20px; }
+}

@@ -1,0 +1,17 @@
+.SearchQuery {
+    position: fixed;
+    top: 50%;
+    width: 80vw;
+    max-width: 1024px;
+    padding: 12px;
+    background-color: rgba(255,255,255,0.25);
+    transform: translateY(-50%);
+    transition: top 0.15s, transform 0.15s;
+    border-radius: 6px;
+
+}
+
+.SearchQuery.with-results {
+    top: 50px;
+    transform: translateY(0);
+}
